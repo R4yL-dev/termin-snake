@@ -10,6 +10,7 @@ SRCS 		:= \
 	sources/snake/snake_move.c \
 	sources/snake/snake_has_to_die.c \
 	sources/snake/snake_draw.c \
+	sources/snake/snake_grow.c \
 	sources/handler/handler.c \
 	sources/handler/handler_quit.c \
 	sources/handler/handler_up.c \
@@ -18,6 +19,8 @@ SRCS 		:= \
 	sources/handler/handler_left.c \
 	sources/gameloop/update.c \
 	sources/gameloop/draw.c \
+	sources/food/food_spawn.c \
+	sources/food/food_draw.c \
 	sources/main.c
 
 OBJS		:= $(SRCS:.c=.o)

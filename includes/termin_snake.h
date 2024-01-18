@@ -4,6 +4,7 @@
 #include <ncurses.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <time.h>
 
 #include "structures.h"
 #include "game.h"
@@ -11,5 +12,6 @@
 #include "snake.h"
 #include "handler.h"
 #include "gameloop.h"
+#include "food.h"
 
 #endif

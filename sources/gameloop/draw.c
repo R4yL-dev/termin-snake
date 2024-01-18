@@ -16,7 +16,7 @@ static void	render(t_game *game)
 	wnoutrefresh(game->win.header);
 	wnoutrefresh(game->win.game);
 	doupdate();
-	usleep(50000);
+	usleep(100000);
 }
 
 static void draw_win_game(t_game *game)
@@ -25,6 +25,7 @@ static void draw_win_game(t_game *game)
 	wclear(win);
 	box(win, 0, 0);
 	snake_draw(game->snake, game->win.game);
+	food_draw(game->food, game->win.game);
 	wrefresh(win);
 }
 

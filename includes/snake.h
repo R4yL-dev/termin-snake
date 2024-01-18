@@ -6,5 +6,6 @@ void	snacke_delete(t_snake *head);
 void	snake_move(t_snake *snake, t_vec2 direction);
 int		snake_has_to_die(t_game *game);
 void	snake_draw(t_snake *head, WINDOW *win);
+void	snake_grow(t_snake *head);
 
 #endif

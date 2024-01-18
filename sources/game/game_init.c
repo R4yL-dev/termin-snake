@@ -5,9 +5,11 @@ static void init_snake(t_game *game);
 
 void	game_init(t_game *game)
 {
+	srand(time(NULL));
 	winlist_init(&game->win);
 	init_max(game);
 	init_snake(game);
+	food_spwan(game);
 }
 
 static void	init_max(t_game *game)
