@@ -4,7 +4,7 @@
 
 *termin-snake* is a clone of the *snake* game in the terminal. All terminal operations are performed using the *ncurses* library.
 
-I'm doing this project because I'm learning `C` and don't know the *ncurses* library. So it's an educational project that I'm using to improve myself.
+I'm doing this project because I'm learning *C* and don't know the *ncurses* library. So it's an educational project that I'm using to improve myself.
 
 My way of doing C is a bit dated because I learned at school *42* and so I learned under the eye of the [norm](https://github.com/42School/norminette). In this project, I don't follow the norm to the letter. But my code style is largely inspired by it.
 
