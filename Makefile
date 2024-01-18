@@ -8,6 +8,7 @@ SRCS 		:= \
 	sources/snake/snake_init.c \
 	sources/snake/snake_delete.c \
 	sources/snake/snake_move.c \
+	sources/snake/snake_has_to_die.c \
 	sources/snake/snake_draw.c \
 	sources/handler/handler.c \
 	sources/handler/handler_quit.c \
