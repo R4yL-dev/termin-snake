@@ -2,5 +2,7 @@
 
 void	food_draw(t_vec2 pos, WINDOW *win)
 {
-	mvwaddch(win, pos.y + 1, pos.x + 1, 'X');
+	wattron(win, COLOR_PAIR(3) | A_BOLD);
+	mvwaddch(win, pos.y + 1, pos.x + 1, 'O');
+	wattroff(win, COLOR_PAIR(3) | A_BOLD);
 }
