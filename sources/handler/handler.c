@@ -5,6 +5,7 @@ void	handler(t_game *game, int ch)
 	switch (ch)
 	{
 		case KEY_F(1):
+			draw_gameover(game);
 			handler_quit(game);
 			break;
 		case KEY_UP:
@@ -22,6 +23,13 @@ void	handler(t_game *game, int ch)
 		case KEY_LEFT:
 			if (game->direction.x != 1)
 				handler_left(game);
+			break;
+		case KEY_EXIT:
+			game->is_paused = !game->is_paused;
+			break;
+		case 'p':
+		case 'P':
+			game->is_paused = !game->is_paused;
 			break;
 		default:
 			break;

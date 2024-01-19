@@ -9,6 +9,8 @@ void	winlist_init(t_winlist *winlist)
 	init_main(winlist);
 	init_header(&winlist->header, winlist->main);
 	init_game(&winlist->game, winlist->main);
+	winlist->pause = NULL;
+	winlist->gameover = NULL;
 }
 
 static void	init_main(t_winlist *winlist)

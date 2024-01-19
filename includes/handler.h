@@ -7,5 +7,6 @@ void	handler_up(t_game *game);
 void	handler_down(t_game *game);
 void	handler_right(t_game *game);
 void	handler_left(t_game *game);
+void	handler_pause(t_game *game);
 
 #endif

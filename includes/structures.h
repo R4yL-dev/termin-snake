@@ -22,6 +22,8 @@ typedef struct s_winlist {
 	WINDOW	*main;
 	WINDOW	*header;
 	WINDOW	*game;
+	WINDOW	*pause;
+	WINDOW	*gameover;
 }	t_winlist;
 
 typedef struct s_game {
@@ -31,6 +33,7 @@ typedef struct s_game {
 	t_vec2		food;
 	t_vec2		direction;
 	int			score;
+	int			is_paused;
 }	t_game;
 
 #endif

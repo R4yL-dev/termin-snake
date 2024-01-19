@@ -11,14 +11,18 @@ SRCS 		:= \
 	sources/snake/snake_has_to_die.c \
 	sources/snake/snake_draw.c \
 	sources/snake/snake_grow.c \
+	sources/snake/snake_can_eat.c \
 	sources/handler/handler.c \
 	sources/handler/handler_quit.c \
 	sources/handler/handler_up.c \
 	sources/handler/handler_down.c \
 	sources/handler/handler_right.c \
 	sources/handler/handler_left.c \
+	sources/handler/handler_pause.c \
 	sources/gameloop/update.c \
 	sources/gameloop/draw.c \
+	sources/gameloop/draw_pause.c \
+	sources/gameloop/draw_gameover.c \
 	sources/food/food_spawn.c \
 	sources/food/food_draw.c \
 	sources/main.c
