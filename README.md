@@ -29,10 +29,6 @@ I intend to test the project on OsX in the future.
 
 ## TODO
 
-- Add wall collisions.
-- Add snake body collisions.
-- Add food.
-- Add score.
-- Add colors.
+- Add GameOver screen.
 - Add help menu.
 - Add pause.
