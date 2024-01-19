@@ -30,6 +30,7 @@ typedef struct s_game {
 	t_vec2		max;
 	t_vec2		food;
 	t_vec2		direction;
+	int			score;
 }	t_game;
 
 #endif

@@ -10,6 +10,7 @@ void	game_init(t_game *game)
 	init_max(game);
 	init_snake(game);
 	food_spwan(game);
+	game->score = 0;
 }
 
 static void	init_max(t_game *game)
